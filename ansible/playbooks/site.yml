@@ -1,0 +1,31 @@
+---
+- name: Apply Ansible operating system baseline
+  hosts: k8s_nodes
+  gather_facts: false
+  become: true
+  serial: 1
+  pre_tasks:
+  - name: Require explicit permission before remote execution
+    ansible.builtin.assert:
+      that:
+      - toolkit_allow_remote_execution | default(false) | bool
+      fail_msg: 'Public example: remote execution is disabled by default.'
+    delegate_to: localhost
+    become: false
+    run_once: true
+    tags:
+    - always
+  - name: Gather facts after explicit opt in
+    ansible.builtin.setup: null
+    tags:
+    - always
+    when: toolkit_allow_remote_execution | default(false) | bool
+  roles:
+  - role: common
+    tags:
+    - common
+    when: toolkit_allow_remote_execution | default(false) | bool
+  - role: k8s_prereq
+    tags:
+    - k8s_prereq
+    when: toolkit_allow_remote_execution | default(false) | bool

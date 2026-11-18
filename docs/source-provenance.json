@@ -1,0 +1,128 @@
+[
+  {
+    "path": "python/delivery_adapter.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/delivery_adapter.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "2bea8900540a2d21d25f09b2c75d42f12f524e89",
+    "source_sha256": "6fa7fcc96790e44533c5c63d3ead78293f9f5693d87ddbf214a6cbd753f43709",
+    "public_sha256": "de5b419682f93e4ff3d713e8d7b9321b39bda4101eb80ac90c35d18250cb8c83"
+  },
+  {
+    "path": "python/test_delivery_adapter.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/test_delivery_adapter.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "42f5f880fbd86e304de66e6b6b0df2d9720a6eaf",
+    "source_sha256": "ccd2ab47d1218ebdf60a46cbb6fe6e633206f46d0f24fc469601c790c068193c",
+    "public_sha256": "571145ef1a04772a292b4056c9804ade53ae9db50ba3f22efd3ec463177ea500"
+  },
+  {
+    "path": "python/producer_bridge.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/producer_bridge.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "172ef304c6c5d7c17c344d01fc13d7885a2f6215",
+    "source_sha256": "9ed6cdc740c7f682f30d1ec9f130c36063ba37591c9a696e578907d07b1f188b",
+    "public_sha256": "b5a8267208e75c60cc6a61ee130426323b779eaee141eaefc0c769f37a5d9348"
+  },
+  {
+    "path": "python/test_producer_bridge.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/test_producer_bridge.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "b4e928fe2c23dbb1ad252f75fe1f8c4cf7739ffa",
+    "source_sha256": "c17dfae15b6333073509c88f8f2cfbaf1f507c3a57bd57c019b2bf363330e6bc",
+    "public_sha256": "b3cb3c7108aa9f2a7191fdac025967a61bff5edad7dacb6e1b63c88a41c4c196"
+  },
+  {
+    "path": "python/producer_snapshot.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/producer_snapshot.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "0fee5a80957c44f459c772d1c4308f53d58eca39",
+    "source_sha256": "b81eb9079573271fc1d8293d66f2fffdf08aa098125d892a5e89a2fad2e40b0a",
+    "public_sha256": "403ac74eb155e7300b9f8009d721e451b197b1147a85d9c17c8f4f0a147ea672"
+  },
+  {
+    "path": "python/test_producer_snapshot.py",
+    "source_repository": "321Team/infra-cicd",
+    "source_path": "tools/phase2/test_producer_snapshot.py",
+    "source_commit": "3ede2f75eb760843114156cb9d5d52012aa700a7",
+    "source_git_blob": "d153514a36b9d876109ccc73495ade27e5fa17c5",
+    "source_sha256": "aa3ef225d0ce2be32b9bf867d2d705c00797489c76a7b1f559d443006549c5b6",
+    "public_sha256": "d6f8a5218bf6b7d22ce9531f82ae651aaef5a0ef8cba113d91e942aeba8ccb4e"
+  },
+  {
+    "path": "ansible/playbooks/precheck.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "playbooks/precheck.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "ca56a322fce6d09f330e81d67cdc5a5ece4dc4b9",
+    "source_sha256": "0a5fc48789e7c40ef3f54b4cc57c29f079157657cf05c42d115b1c639d03ce97",
+    "public_sha256": "da834463d992d4af07a02a950a990779f5861d4edd233ac8a9360b0ec2abbfe4"
+  },
+  {
+    "path": "ansible/playbooks/site.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "playbooks/site.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "ccd33a142e7719c928aa26f79579c6efff8ccea0",
+    "source_sha256": "1f9053b6a654988132ede57003b66a646a3ef34b48cb079aaf914e9a055c1234",
+    "public_sha256": "be0a4153d6028f8f398a8337ca7e4a423b904b92eb1b2e908747a69ea56326f8"
+  },
+  {
+    "path": "ansible/roles/common/tasks/main.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "roles/common/tasks/main.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "453db1a3eb0f1ac18801afb905b99c16f6b6220c",
+    "source_sha256": "38749e0d1746ad8aa1e0617e85fddb75ccb9e7a311f401faa7fdb13a7748ef9b",
+    "public_sha256": "93af0cf26a6c6d873ded61f534bcf7ff47f98607494a112b128eab17f98979f5"
+  },
+  {
+    "path": "ansible/roles/k8s_prereq/tasks/main.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "roles/k8s_prereq/tasks/main.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "fbd9df2d980edc30e4416a0cb6d275199bf9d984",
+    "source_sha256": "5071791052d74730f155aa3d3337a5efae51704581ce21043be7954ae19885f8",
+    "public_sha256": "4e52c1c1b892000ce233a3abe774c5dedb54f906a7d04bb588437d578f8ffad6"
+  },
+  {
+    "path": "ansible/roles/k8s_prereq/tasks/verify.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "roles/k8s_prereq/tasks/verify.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "0c3a9753307f0e20c789c65f53c8a6b49acad57a",
+    "source_sha256": "1933fd315558af4220bc08b9074475d427464278384a0f3c263d747e96217093",
+    "public_sha256": "ca246a049b497eeefef07f6e84d03d57ad14aa3cad7d458d404baedacf2447c1"
+  },
+  {
+    "path": "ansible/roles/k8s_prereq/handlers/main.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "roles/k8s_prereq/handlers/main.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "bb8955361d6d440eb209510cef44250b2a5dbcf5",
+    "source_sha256": "7b95d285122ff3f0d23b7daef840a45dd8fa70d8c231e11ba360bf2ace48c4ff",
+    "public_sha256": "7b95d285122ff3f0d23b7daef840a45dd8fa70d8c231e11ba360bf2ace48c4ff"
+  },
+  {
+    "path": "ansible/playbooks/harden_svc_ansible_key.yml",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "playbooks/harden_svc_ansible_key.yml",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "c393dcefdfbd0252e1c2c43e26fce3138dae2f62",
+    "source_sha256": "aa3f94e94a5901bb55b26ac8342f1077776f8ee482e72e6fc659a65105c62e79",
+    "public_sha256": "485e34acecdd8141eccb3a7fcd523e9a93c07a0bd4479d69c447202b8bfc1ebf"
+  },
+  {
+    "path": "ansible/tests/ssh_guard_fixtures.py",
+    "source_repository": "321Team/infra-ansible",
+    "source_path": "tests/ssh_guard_fixtures.py",
+    "source_commit": "7f04e18371f5d10aec678460f5dcd6e28d98d7d3",
+    "source_git_blob": "c51417e6bb40a1537090ba20ffaf8a1bc00dfc4c",
+    "source_sha256": "3a2f367c7908419d435186457dfca1aadba1b326e9bdedf9cfc909c177dfd1ce",
+    "public_sha256": "e6770bb832733f9a80a5c96db98e9b7483ef450aadb480f6575299ddcbd92b71"
+  }
+]

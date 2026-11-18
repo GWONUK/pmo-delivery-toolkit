@@ -1,0 +1,18 @@
+---
+# Documentation-only inventory. No real host or account is included.
+all:
+  children:
+    k8s_nodes:
+      hosts:
+        sample_node:
+          ansible_host: node.example.invalid
+          expected_hostname: sample-node
+      vars:
+        ansible_user: automation
+        toolkit_allow_remote_execution: false
+        management_probe_ip: 192.0.2.10
+        management_gateway: 192.0.2.1
+        bootstrap_host_records:
+          - ip: 192.0.2.20
+            fqdn: node.example.invalid
+            hostname: sample-node
